@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: autodeploy01
-  namespace: namespace-workflow-1696009028081
+  name: autodeploy02
+  namespace: namespace-workflow-1696009842843
 spec:
   type: LoadBalancer
   selector:
-    app: autodeploy01
+    app: autodeploy02
   ports:
     - protocol: TCP
       port: 5000
